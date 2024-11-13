@@ -11,39 +11,7 @@ entries:
               url: https://github.com/ollama/ollama/releases/tag/v0.4.0
     apiVersion: v2
     appVersion: 0.4.0
-    created: "2024-11-13T23:39:12.7905391+01:00"
-    description: Get up and running with large language models locally.
-    digest: c65b53d26f1195b33cb6713fb2e24dd98abd88f25f07b1e363cd32f913776573
-    home: https://ollama.ai/
-    icon: https://ollama.ai/public/ollama.png
-    keywords:
-    - ai
-    - llm
-    - llama
-    - mistral
-    kubeVersion: ^1.16.0-0
-    maintainers:
-    - email: contact@otwld.com
-      name: OTWLD
-    name: ollama
-    sources:
-    - https://github.com/ollama/ollama
-    - https://github.com/otwld/ollama-helm
-    type: application
-    urls:
-    - https://mbtraore.github.io/prd-helm-ai/ollama-0.64.0.tgz
-    version: 0.64.0
-  - annotations:
-      artifacthub.io/category: ai-machine-learning
-      artifacthub.io/changes: |
-        - kind: changed
-          description: upgrade app version to 0.4.0
-          links:
-            - name: Ollama release v0.4.0
-              url: https://github.com/ollama/ollama/releases/tag/v0.4.0
-    apiVersion: v2
-    appVersion: 0.4.0
-    created: "2024-11-13T23:39:12.7984886+01:00"
+    created: "2024-11-13T23:51:19.6311016+01:00"
     description: Get up and running with large language models locally.
     digest: c65b53d26f1195b33cb6713fb2e24dd98abd88f25f07b1e363cd32f913776573
     home: https://ollama.ai/
@@ -70,7 +38,7 @@ entries:
       licenses: MIT
     apiVersion: v2
     appVersion: 0.3.35
-    created: "2024-11-13T23:39:12.7960256+01:00"
+    created: "2024-11-13T23:51:19.627977+01:00"
     dependencies:
     - condition: ollama.enabled
       import-values:
@@ -92,7 +60,7 @@ entries:
       version: '>=2.9.0'
     description: "Open WebUI: A User-Friendly Web Interface for Chat Interactions
       \U0001F44B"
-    digest: b97bdb4f65516d8f5411c825d5df8faa2083e2987c6cdc6ada168fdc6575b3e0
+    digest: df1a747101e7bce2c7ddcc838f078db1c3c8c918fd3ac8c9c38de52e5dc9cb8f
     home: https://www.openwebui.com/
     icon: https://raw.githubusercontent.com/open-webui/open-webui/main/static/favicon.png
     keywords:
@@ -113,9 +81,9 @@ entries:
       licenses: MIT
     apiVersion: v2
     appVersion: alpha
-    created: "2024-11-13T23:39:12.7989735+01:00"
+    created: "2024-11-13T23:51:19.631598+01:00"
     description: 'Pipelines: UI-Agnostic OpenAI API Plugin Framework'
-    digest: 0a29dcd7e0df8c9e0ef11822522804f023fdbc81105425fe5481e7d57689dc0b
+    digest: 1493ebe8c6d3bd5614448fb63fe5f5a495fb2c0c9587131f31a1a077c6aa8691
     home: https://github.com/open-webui/pipelines
     icon: https://github.com/open-webui/pipelines/raw/main/header.png
     keywords:
@@ -132,7 +100,7 @@ entries:
   tika:
   - apiVersion: v2
     appVersion: 2.9.0.0
-    created: "2024-11-13T23:39:12.7974286+01:00"
+    created: "2024-11-13T23:51:19.6296265+01:00"
     description: The official Helm chart to deploy Apache Tika on Kubernetes
     digest: ca9fa418bcb83afc1b340d90563bedc71a83a6434a2c7c528ddaba284a55c427
     home: https://tika.apache.org
@@ -164,7 +132,7 @@ entries:
     version: 2.9.0
   - apiVersion: v2
     appVersion: 2.9.0.0
-    created: "2024-11-13T23:39:12.8003236+01:00"
+    created: "2024-11-13T23:51:19.6326638+01:00"
     description: The official Helm chart to deploy Apache Tika on Kubernetes
     digest: ca9fa418bcb83afc1b340d90563bedc71a83a6434a2c7c528ddaba284a55c427
     home: https://tika.apache.org
@@ -194,4 +162,4 @@ entries:
     urls:
     - https://mbtraore.github.io/prd-helm-ai/charts/tika-2.9.0.tgz
     version: 2.9.0
-generated: "2024-11-13T23:39:12.7892606+01:00"
+generated: "2024-11-13T23:51:19.6220276+01:00"
